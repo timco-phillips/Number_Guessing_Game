@@ -8,7 +8,7 @@ namespace Number_Guessing_Game
         {
             
             Random num = new Random();
-            int rndNum = num.Next(1, 11);
+            int rndNum = num.Next(1, 21); //change number to 21 from 11
             string yourGuess;
             bool win = false;
             string rndNumber = rndNum.ToString();
@@ -16,7 +16,7 @@ namespace Number_Guessing_Game
 
             while (win == false)
             {
-                Console.WriteLine("Guess the number between 1 and 10");
+                Console.WriteLine("Guess the number between 1 and 20"); //changed string to reflect number change
                 yourGuess = Console.ReadLine();
 
                 if (yourGuess == rndNumber)
