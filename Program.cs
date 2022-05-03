@@ -33,7 +33,7 @@ namespace Number_Guessing_Game
                 {
                     Console.WriteLine("\n -- Sorry, try again. Make sure you enter a number. --\n");   //Added some formatting
                     Console.WriteLine("=====================");
-                    Console.WriteLine("= You have guessed: = ");
+                    Console.WriteLine("=Congrats! You have guessed: = "); //add congrats
                     foreach (string guess in guesses)
                     {
                         Console.WriteLine($"=\t{guess}\t    =");                                    //shows all the previous guesses
