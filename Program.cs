@@ -9,7 +9,7 @@ namespace Number_Guessing_Game
         {
             
             Random num = new Random();
-            int rndNum = num.Next(1, 29); //change number to 28 from 29
+            int rndNum = num.Next(1, 30); //change number to 29 from 30
             string yourGuess;
             bool win = false;
             string rndNumber = rndNum.ToString();
@@ -18,7 +18,7 @@ namespace Number_Guessing_Game
 
             while (win == false)
             {
-                Console.Write("Guess a number between 1 and 28: "); //formatted the sentence a little differently
+                Console.Write("Guess a number between 1 and 29: "); //formatted the sentence a little differently
                 yourGuess = Console.ReadLine();
                 guesses.Add(yourGuess);                                 //add guess to list
 
